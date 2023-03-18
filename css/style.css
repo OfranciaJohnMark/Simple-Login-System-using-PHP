@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #3f3f3f;
+}
+.main-nav{
+    background-color: #000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding: 0.5em 20em;
+}
+.brand-logo h2{
+    color: #fff;
+    font-size: 2rem;
+}
+.navbar-nav{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.nav-item{
+    padding: 0 1em;
+}
+.nav-link{
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 0.8rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.wrapper{
+    background-color: #fff;
+    width: 850px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 2em 0 1em 0;
+}
+.banner-title{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2rem;
+}
+.banner-text{
+    color: #494949;
+    font-size: 1rem;
+}
+.categories{
+    margin-top: 3rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.categories h2{
+    padding-bottom:1em ;
+}
+.row{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    grid-gap: 20px;
+    padding: 0 1em;
+    height: 150px;
+}
+.col{
+    background-color: #cfcfcf;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.col h2{
+    font-size: 1rem;
+}
+
+/* Sign Up Form  Styles*/
+.signup-form{
+    border: 1px solid #000;
+    width: 250px;
+    margin: 0 auto;
+    padding: 1em 1.5em;
+}
+.signup-form p{
+    color: #00f;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+    margin-top: 1em;
+}
+.form-class{
+    display: flex;
+    flex-direction: column;
+    margin-top: 1em;
+}
+.form-class input[type="text"],
+input[type="email"],
+input[type="password"]{
+    margin-bottom: 0.5em;
+    padding: 0.3em 0.2em;
+}
+.form-class button{
+    padding: 0.5em 0;
+    width: 100px;
+    margin: 0 auto;
+}
